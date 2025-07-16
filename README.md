@@ -9,9 +9,9 @@
 ตั้งค่า Git configuration
 
 # ตั้งค่าชื่อและอีเมล
-git config --global user.name "Your Name"
+git config --global user.name "thanakon"
 
-git config --global user.email "your.email@example.com"
+git config --global user.email "thanakon.170147@gmail.com"
 
 # ตรวจสอบการตั้งค่า
 git config --list
