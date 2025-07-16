@@ -29,3 +29,14 @@ git init
 
 <img width="998" height="337" alt="image" src="https://github.com/user-attachments/assets/78b29ce7-8c7c-4a07-b5e0-e3737dda2297" />
 
+1.2 สร้างไฟล์พื้นฐาน
+สร้างไฟล์ index.html:
+
+<img width="1294" height="856" alt="image" src="https://github.com/user-attachments/assets/28e69634-47c6-4819-a12c-7f9525011848" />
+
+สร้างไฟล์ style.css:
+
+<img width="888" height="1260" alt="Screenshot 2568-07-16 at 13 48 07" src="https://github.com/user-attachments/assets/0d4250de-ba1a-4074-95bc-f57affd37730" />
+
+
+
