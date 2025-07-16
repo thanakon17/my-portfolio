@@ -38,5 +38,51 @@ git init
 
 <img width="888" height="1260" alt="Screenshot 2568-07-16 at 13 48 07" src="https://github.com/user-attachments/assets/0d4250de-ba1a-4074-95bc-f57affd37730" />
 
+1.3 เพิ่มไฟล์ไปยัง Repository
+# ตรวจสอบสถานะไฟล์
+git status
+
+# เพิ่มไฟล์ทั้งหมดไปยัง staging area
+git add .
+
+# ตรวจสอบสถานะอีกครั้ง
+git status
+
+# Commit ครั้งแรก
+git commit -m "Initial commit: Add basic portfolio structure"
+
+<img width="1005" height="913" alt="image" src="https://github.com/user-attachments/assets/caa101c5-bad0-470f-b735-3f90d7d55fe4" />
+
+1.4 สร้าง Repository บน GitHub และเชื่อมต่อ
+ไปที่ GitHub.com และล็อกอิน
+คลิก "New Repository"
+ตั้งชื่อ repository เป็น "my-portfolio"
+ไม่ต้องเลือก "Initialize with README"
+คลิก "Create Repository"
+
+<img width="1618" height="755" alt="Screenshot 2568-07-16 at 13 36 18" src="https://github.com/user-attachments/assets/2f83952b-1d30-48e7-9450-53350f9407dd" />
+
+git remote add origin git@github.com:[your-username]/my-portfolio.git
+
+# ตรวจสอบการเชื่อมต่อ
+git remote -v
+
+# Push ไฟล์ไปยัง GitHub
+git push -u origin main
+
+<img width="819" height="364" alt="Screenshot 2568-07-16 at 13 53 04" src="https://github.com/user-attachments/assets/02f272d6-e77b-419a-b434-2944af640ee2" />
+
+ขั้นตอนที่ 2: การทำงานกับ Branches
+2.1 สร้าง Branch ใหม่สำหรับเพิ่มฟีเจอร์
+
+# สร้าง branch ใหม่และเปลี่ยนไป
+git checkout -b feature/add-projects
+
+# ตรวจสอบ branch ปัจจุบัน
+git branch
+
+
+
+
 
 
