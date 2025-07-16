@@ -14,4 +14,5 @@ git config --global user.email "your.email@example.com"
 
 # ตรวจสอบการตั้งค่า
 git config --list
+
 <img width="483" height="63" alt="image" src="https://github.com/user-attachments/assets/31dc2792-7fe6-4002-bdf3-a6d40ec2d838" />
