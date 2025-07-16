@@ -10,6 +10,7 @@
 
 # ตั้งค่าชื่อและอีเมล
 git config --global user.name "Your Name"
+
 git config --global user.email "your.email@example.com"
 
 # ตรวจสอบการตั้งค่า
