@@ -20,10 +20,11 @@ git init
 <img width="2559" height="1473" alt="Screenshot 2025-07-20 174451" src="https://github.com/user-attachments/assets/33edb841-8fb6-4824-9a58-ef2671620218" />
 
 1.3 เพิ่มไฟล์ไปยัง Repository
-<img width="1278" height="1237" alt="Screenshot 2025-07-20 173535" src="https://github.com/user-attachments/assets/43797689-31c4-4b4f-82d1-d2e6464a82f3" />
+<img width="1278" height="1237" alt="Screenshot 2025-07-20 173535" src="https://github.com/user-attachments/assets/fa625952-6668-40f7-ab77-684e1df9c5ad" />
 
 1.4 สร้าง Repository บน GitHub และเชื่อมต่อ
-<img width="1269" height="214" alt="Screenshot 2025-07-20 173636" src="https://github.com/user-attachments/assets/2c3de844-b205-497f-9918-d745012b51fa" />
+<img width="1269" height="905" alt="Screenshot 2025-07-20 173612" src="https://github.com/user-attachments/assets/8af39e2c-b270-416f-a340-22af69c576b9" />
+
 
 ขั้นตอนที่ 2: การทำงานกับ Branches
 2.1 สร้าง Branch ใหม่สำหรับเพิ่มฟีเจอร์
