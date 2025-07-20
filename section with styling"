@@ -1,0 +1,96 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 88eb48b..c20ba91 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,23 +1,25 @@[m
+ <!DOCTYPE html>[m
+ <html lang="th">[m
+[32m+[m[41m[m
+ <head>[m
+     <meta charset="UTF-8">[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+     <title>My Portfolio</title>[m
+     <link rel="stylesheet" href="style.css">[m
+ </head>[m
+[32m+[m[41m[m
+ <body>[m
+     <header>[m
+         <h1>สวัสดี! ฉันคือ ธนกร ผดุงศิลป์</h1>[m
+         <p>นักพัฒนาเว็บไซต์มือใหม่</p>[m
+     </header>[m
+[31m-    [m
+[32m+[m[41m[m
+     <main>[m
+         <section id="about">[m
+             <h2>เกี่ยวกับฉัน</h2>[m
+             <p>ฉันกำลังเรียนรู้การพัฒนาเว็บไซต์และตื่นเต้นมากกับเทคโนโลยีใหม่ๆ</p>[m
+         </section>[m
+[31m-        [m
+[32m+[m[41m[m
+         <section id="skills">[m
+             <h2>ทักษะ</h2>[m
+             <ul>[m
+[36m@@ -26,10 +28,24 @@[m
+                 <li>JavaScript (เรียนรู้อยู่)</li>[m
+             </ul>[m
+         </section>[m
+[32m+[m[32m        <section id="projects">[m[41m[m
+[32m+[m[32m            <h2>โปรเจกต์ของฉัน</h2>[m[41m[m
+[32m+[m[32m            <div class="project">[m[41m[m
+[32m+[m[32m                <h3>เว็บไซต์ Portfolio</h3>[m[41m[m
+[32m+[m[32m                <p>เว็บไซต์แสดงผลงานส่วนตัวที่สร้างด้วย HTML, CSS</p>[m[41m[m
+[32m+[m[32m                <a href="#" class="project-link">ดูโปรเจกต์</a>[m[41m[m
+[32m+[m[32m            </div>[m[41m[m
+[32m+[m[32m            <div class="project">[m[41m[m
+[32m+[m[32m                <h3>To-Do List App</h3>[m[41m[m
+[32m+[m[32m                <p>แอปพลิเคชันจดบันทึกรายการสิ่งที่ต้องทำ (กำลังพัฒนา)</p>[m[41m[m
+[32m+[m[32m                <a href="#" class="project-link">ดูโปรเจกต์</a>[m[41m[m
+[32m+[m[32m            </div>[m[41m[m
+[32m+[m[32m        </section>[m[41m[m
+     </main>[m
+[31m-    [m
+[32m+[m[41m[m
+     <footer>[m
+         <p>&copy; 2025 My Portfolio</p>[m
+     </footer>[m
+ </body>[m
+[32m+[m[41m[m
+ </html>[m
+\ No newline at end of file[m
+[1mdiff --git a/style.css b/style.css[m
+[1mindex 96ed020..fc9b85b 100644[m
+[1m--- a/style.css[m
+[1m+++ b/style.css[m
+[36m@@ -60,4 +60,31 @@[m [mfooter {[m
+     text-align: center;[m
+     padding: 1rem;[m
+     margin-top: 2rem;[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.project {[m[41m[m
+[32m+[m[32m    border: 1px solid #ddd;[m[41m[m
+[32m+[m[32m    padding: 1.5rem;[m[41m[m
+[32m+[m[32m    margin-bottom: 1rem;[m[41m[m
+[32m+[m[32m    border-radius: 4px;[m[41m[m
+[32m+[m[32m    background-color: #f9f9f9;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.project h3 {[m[41m[m
+[32m+[m[32m    color: #2c3e50;[m[41m[m
+[32m+[m[32m    margin-bottom: 0.5rem;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.project-link {[m[41m[m
+[32m+[m[32m    display: inline-block;[m[41m[m
+[32m+[m[32m    background-color: #3498db;[m[41m[m
+[32m+[m[32m    color: white;[m[41m[m
+[32m+[m[32m    padding: 0.5rem 1rem;[m[41m[m
+[32m+[m[32m    text-decoration: none;[m[41m[m
+[32m+[m[32m    border-radius: 4px;[m[41m[m
+[32m+[m[32m    margin-top: 1rem;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.project-link:hover {[m[41m[m
+[32m+[m[32m    background-color: #2980b9;[m[41m[m
+ }[m
+\ No newline at end of file[m
